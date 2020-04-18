@@ -1,0 +1,45 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#jubatron {
+  background-color: #1b2869;
+  padding: 20px 0;
+  letter-spacing: 3px;
+  height: 80px;
+}
+
+#jubatron-title {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+nav {
+  font-size: larger;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 3px;
+  padding-right: 60px;
+  background-color: rgb(146, 7, 7);
+}
+nav div {
+  padding: 10px 5px;
+}
+nav div a {
+  margin-left: 100px; 
+  text-decoration: none;
+}
+nav div a:hover   {
+  color: white;
+}
+nav div a:link {
+  color: white;
+}
+nav div a:visited {
+  color: white;
+}
+nav div a:active {
+  color: white;
+}
+

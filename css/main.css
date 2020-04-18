@@ -1,0 +1,64 @@
+main {
+  margin: 0% 5%;
+  padding-bottom: 1%;
+  background-color: #eef;
+}
+
+.section-card {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.card {
+  padding: 2%;
+  margin-left: 1%;
+  box-shadow: 0 4px 8px 2px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  color: #071a75;
+  letter-spacing: 3px;
+  text-align: center;
+  width: 30%;
+  border-radius: 5px;
+  background-color: #fff;
+
+}
+
+.card-title {
+  font-size: 2em;
+}
+.card-brief {
+  font-size: 1.1em;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+#heading {
+  padding: 30px;
+  letter-spacing: 2px;
+}
+
+#heading-title {
+  padding-left: 140px;
+  font-style: italic;
+  text-align: left;
+  font-size: 30px;
+  color: #000;
+}
+
+#heading-brief {
+  padding-left: 120px;
+  font-style: italic;
+  text-align: left;
+  font-size: 20px;
+  color: #888c;
+}
+
+
+iframe, audio  {
+  width: 100% !important;
+}
