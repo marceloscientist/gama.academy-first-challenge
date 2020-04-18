@@ -3,7 +3,7 @@
 }
 
 #jubatron {
-  background-color: #071a75;
+  background-color: #1b2869;
   padding: 20px 0;
   letter-spacing: 3px;
   height: 80px;
@@ -43,32 +43,37 @@ nav div a:active {
   color: white;
 }
 
-
 main {
-  margin: 0% 20%;
+  margin: 0% 5%;
   padding-bottom: 1%;
   background-color: #eef;
 }
 
 .section-card {
-  text-align-last: right;
+  display: flex;
+  justify-content: space-evenly;
+
 }
 
 .card {
-  padding: 20px;
-  /* Add shadows to create the "card" effect */
-  margin-left: 100px;
-  margin-top: 10px;
+  padding: 2%;
+  margin-left: 1%;
   box-shadow: 0 4px 8px 2px rgba(0,0,0,0.2);
   transition: 0.3s;
   color: #071a75;
   letter-spacing: 3px;
   text-align: center;
-  font-size: 25px;
-  width: 80%;
+  width: 30%;
   border-radius: 5px;
   background-color: #fff;
 
+}
+
+.card-title {
+  font-size: 1.5em;
+}
+.card-brief {
+  font-size: 1.1em;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -76,14 +81,6 @@ main {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-/* Add some padding inside the card container */
-.footer-container {
-  padding: 2px 16px;
-}
-
-img {
-  width: 65%;
-}
 
 #heading {
   padding: 30px;
@@ -106,22 +103,102 @@ img {
   color: #888c;
 }
 
+
+iframe, audio  {
+  width: 100% !important;
+}
+
 footer {
-  background-color: #000;
+  background-color: #051566;
   display: flex;
-  justify-content: space-between;
-  padding: 3%;
+  justify-content: space-around;
+  padding: 1% 5% 1% 5%;
 }
 
-iframe {
-  width: inherit;
+/* Add some padding inside the card container */
+.footer-container {
+  padding: 2px 16px;
 }
 
-.footer-card {
+.left-footer-card {
+  background-color: #ccc;
   color: #071a75;
+  text-align: left;
+  font-size: 16px;
+  margin: 2px;
+  border: 0.5px solid  white;
+  border-radius: 0.2em;
+  padding: 1em;
+}
+
+#mini-cv {
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+#mini-cv-left {
+  padding: 20px;
+  font-style: italic;
+}
+
+#mini-cv-title {
+  color: #333;
+  text-align: right;
+  font-size: 2em;
+  margin-right: 6%;
+}
+#mini-cv-brief {
+  text-align: right;
+  font-size: 1.5em;
+}
+#mini-cv-right {
+  background-color: #777;
+  border: 0.5px solid  white;
+  padding: 20px; 
   text-align: center;
-  font-size: 25px;
-  margin: 30px;
-  border: 0.5px solid  red;
-  padding: 50PX;
+
+}
+img {
+
+  width: 10em;
+}
+
+
+#mini-cv-bottom {
+  border: 0.5px solid  white;
+  padding: 20px;
+  box-shadow: 0 4px 8px 2px rgba(0,0,0,0.2);
+}
+
+.mini-cv-frame {
+  background-color: #555;
+  border: 0.5px solid  white;
+  margin: 5px 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: initial;
+  box-shadow: 0 4px 8px 2px rgba(0,0,0,0.2);
+}
+
+.mini-cv-anchors {
+  margin: 5px 20px;
+  text-decoration: none;
+}
+
+.mini-cv-anchors:hover, 
+.mini-cv-anchors:link, 
+.mini-cv-anchors:visited, 
+.mini-cv-anchors:active {
+  color: white;
+}
+
+.right-footer-card {
+  color: #071a75;
+  text-align: right;
+  font-size: 18px;
+  margin: 2px;
+  border: 0.5px solid  white;
+  padding: 50px;
+  background-color: #ccc;
+
 }
