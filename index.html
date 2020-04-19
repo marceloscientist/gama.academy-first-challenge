@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>.: THE LATEST NEWS IN THE WORLD :.</title>
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/about-me.css">
-    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/top-btn.css">
+
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/about-me.css">
+    <link rel="stylesheet" href="./assets/css/footer.css" />
 
   </head>
   <body>
@@ -20,20 +22,29 @@
 
       </nav>
       <div id="jubatron">
-        <h1 id="jubatron-title">WE'RE ALL FIGHTING AGAIN CORONA</h1>
+        <h1 id="jubatron-title">WE'RE ALL FIGHTING AGAINST CORONA</h1>
       </div>
     </header>
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <main>
       <div id="main-heading">
         <h2 id="main-heading-title">Recommended</h2>
       </div>
        <section class="section-card">
         <article class="card">
-          <iframe class="youtube" src="https://www.youtube.com/embed/aerq4byr7ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="container">
+          <div style="max-width:800px">
+            <div style="position:relative;height:0;padding-bottom:56.25%">
+              <iframe src="https://embed.ted.com/talks/bill_gates_the_next_outbreak_we_re_not_ready" width="854" height="480" 
+                      style="position:absolute;left:0;top:0;width:100%;height:100%" 
+                      frameborder="0" scrolling="no" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
            <div class="container">
-            <h4 class="card-title"><b>John Doe</b></h4>
-            <p class="card-brief">Architect & Engineer</p>
+            <h4 class="card-title"><b>The Next Outbreak</b></h4>
+              <p><a class="card-brief" href="./news/breakout.html">Click here to see the script fully!</a></p>
+            <h4 class="card-title"><b>If you prefer to listen, click bellow</b></h4>
+
             <audio controls> 
               <source src="horse.ogg" type="audio/ogg"> 
               <source src="horse.mp3" type="audio/mpeg"> 
@@ -45,36 +56,57 @@
 
         <section class="section-card">
           <article class="card">
-          <iframe class="youtube" src="https://www.youtube.com/embed/aerq4byr7ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="container">
-           <div class="container">
-            <h4 class="card-title"><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
-            <audio controls> 
-              <source src="horse.ogg" type="audio/ogg"> 
-              <source src="horse.mp3" type="audio/mpeg"> 
-               Your browser does not support the audio tag. 
-            </audio>
-           </div>
-         </article>
-        </section>
 
-        <section class="section-card">
-        <article class="card">
-          <iframe class="youtube" src="https://www.youtube.com/embed/aerq4byr7ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="container">
-           <div class="container">
-            <h4 class="card-title"><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
-            <audio controls> 
-              <source src="horse.ogg" type="audio/ogg"> 
-              <source src="horse.mp3" type="audio/mpeg"> 
-               Your browser does not support the audio tag. 
-            </audio>
-           </div>
-         </article>
-       </section>
-      </main>
-      
-      <section id="mini-cv-container">
+            <div style="max-width:800px">
+              <div style="position:relative;height:0;padding-bottom:56.25%">
+                <iframe src="https://embed.ted.com/talks/adam_kucharski_how_can_we_control_the_coronavirus_pandemic" width="854" height="480"
+                 style="position:absolute;left:0;top:0;width:100%;height:100%" 
+                frameborder="0" scrolling="no" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+             <div class="container">
+              <h4 class="card-title"><b>How to control it?</b></h4>
+                <p><a class="card-brief" href="./news/controlling.html">Click here to see the script fully!</a></p>
+              <h4 class="card-title"><b>If you prefer to listen, click bellow</b></h4>
+  
+              <audio controls> 
+                <source src="horse.ogg" type="audio/ogg"> 
+                <source src="horse.mp3" type="audio/mpeg"> 
+                 Your browser does not support the audio tag. 
+              </audio>
+             </div>
+           </article>
+          </section>
+
+          <section class="section-card">
+            <article class="card">
+
+              <div style="max-width:800px">
+                <div style="position:relative;height:0;padding-bottom:56.25%">
+                  <iframe src="https://embed.ted.com/talks/david_heymann_what_we_do_and_don_t_know_about_the_coronavirus" width="854" height="480" 
+                  style="position:absolute;left:0;top:0;width:100%;height:100%" 
+                  frameborder="0" scrolling="no" allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+
+                 <div class="container">
+                <h4 class="card-title"><b>The Next Outbreak</b></h4>
+                  <p><a class="card-brief" href="./news/breakout.html">Click here to see the script fully!</a></p>
+                <h4 class="card-title"><b>If you prefer to listen, click bellow</b></h4>
+    
+                <audio controls> 
+                  <source src="horse.ogg" type="audio/ogg"> 
+                  <source src="horse.mp3" type="audio/mpeg"> 
+                   Your browser does not support the audio tag. 
+                </audio>
+               </div>
+             </article>
+            </section>
+
+            
+      <section id="mini-cv">
         <div id="about-heading">
           <h2 id="about-heading-title">Mini CV  </h2>
         </div>
@@ -108,10 +140,11 @@
               </div>
           </article>
       </section>
-    <footer id=>
+    <footer id="contact">
       <iframe id="google" src="https://docs.google.com/forms/d/1bI914QClvVVYpUvjxyTyri9WP-hOXTo0X0atW6BRNTU/viewform?embedded=true" 
       width="640" height="600" 
       frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
     </footer>
   </body>
+  <script src="./js/myBtn.js"></script>
 </html>

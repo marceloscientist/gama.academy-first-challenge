@@ -10,6 +10,7 @@ main {
 }
 
 .card {
+  padding-left: 10em;  
   padding-top: 3em;
   margin-left: 1em;
   margin-bottom: 3em;
@@ -19,10 +20,9 @@ main {
   letter-spacing: 3px;
   text-align: center;
   width: 70em;
-  height: 40em;
+  height: 100%;
   border-radius: 5px;
   background-color: #fff;
-
 }
 
 .card-title {
@@ -31,6 +31,19 @@ main {
 }
 .card-brief {
   font-size: 1.1em;
+}
+
+
+#card-script-title {
+  font-size: 1.5em;
+  margin: 1em .5em 2em .5em;
+  text-align: left;
+}
+
+#card-script {
+  padding: 2em 10em 2em 0.1em;
+  color: #555;
+
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -63,6 +76,7 @@ main {
 }
 audio  {
   margin-top: 1em;
+  
   width: 60%;
 }
 
