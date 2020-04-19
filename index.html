@@ -15,7 +15,7 @@
     <header>
       <nav id="nav">
         <div><a href="#home">Home </a></div>
-        <div><a href="#about-me">Mini-CV</a></div>
+        <div><a href="#mini-cv">Mini-CV</a></div>
         <div><a href="#contact">Contact </a></div>
 
       </nav>
@@ -25,14 +25,14 @@
     </header>
 
     <main>
-      <div id="heading">
-        <h2 id="heading-title">Recommended</h2>
+      <div id="main-heading">
+        <h2 id="main-heading-title">Recommended</h2>
       </div>
        <section class="section-card">
         <article class="card">
-          <iframe src="https://www.youtube.com/embed/aerq4byr7ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="container">
+          <iframe class="youtube" src="https://www.youtube.com/embed/aerq4byr7ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="container">
            <div class="container">
-            <h4><b class="card-title">John Doe</b></h4>
+            <h4 class="card-title"><b>John Doe</b></h4>
             <p class="card-brief">Architect & Engineer</p>
             <audio controls> 
               <source src="horse.ogg" type="audio/ogg"> 
@@ -41,11 +41,28 @@
             </audio>
            </div>
          </article>
+        </section>
 
+        <section class="section-card">
+          <article class="card">
+          <iframe class="youtube" src="https://www.youtube.com/embed/aerq4byr7ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="container">
+           <div class="container">
+            <h4 class="card-title"><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+            <audio controls> 
+              <source src="horse.ogg" type="audio/ogg"> 
+              <source src="horse.mp3" type="audio/mpeg"> 
+               Your browser does not support the audio tag. 
+            </audio>
+           </div>
+         </article>
+        </section>
+
+        <section class="section-card">
         <article class="card">
-          <iframe src="https://www.youtube.com/embed/aerq4byr7ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="container">
+          <iframe class="youtube" src="https://www.youtube.com/embed/aerq4byr7ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="container">
            <div class="container">
-            <h4><b>John Doe</b></h4>
+            <h4 class="card-title"><b>John Doe</b></h4>
             <p>Architect & Engineer</p>
             <audio controls> 
               <source src="horse.ogg" type="audio/ogg"> 
@@ -54,28 +71,19 @@
             </audio>
            </div>
          </article>
-
-         <article class="card">
-          <iframe src="https://www.youtube.com/embed/aerq4byr7ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="container">
-           <div class="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
-            <audio controls> 
-              <source src="horse.ogg" type="audio/ogg"> 
-              <source src="horse.mp3" type="audio/mpeg"> 
-               Your browser does not support the audio tag. 
-            </audio>
-           </div>
-         </article>
-
        </section>
       </main>
       
-      <section id="about-me">
-          <article id="saiba+" class="left-footer-card">
-            <div id="mini-cv">
+      <section id="mini-cv-container">
+        <div id="about-heading">
+          <h2 id="about-heading-title">Mini CV  </h2>
+        </div>
+            <article class="mini-cv">
+            <div id="mini-cv-label">
               <div id="mini-cv-left">
-                <h4><b class="card-title">Mini-CV</b></h4>
+                <h2><b id="mini-cv-title">Marcelo Santana</b></h2>
+                <p id="mini-cv-brief">Software Engineer * English Proficiency * Super Father * Tutor</p>
+  
               </div>
             </div >
                <div id="mini-cv-bottom">
@@ -99,19 +107,9 @@
                 </div>
               </div>
           </article>
-
-        <article class="right-footer-card">
-              <h4><b class="card-title">Marcelo Santana</b></h4>
-              <p class="card-brief">Software Engineer </p>
-                <p>English Proficiency</p>
-                <p>Super Father</p>
-                <p>Tutor</p>
-
-
-        </article>
       </section>
-    <footer id="contact">
-      <iframe src="https://docs.google.com/forms/d/1bI914QClvVVYpUvjxyTyri9WP-hOXTo0X0atW6BRNTU/viewform?embedded=true" 
+    <footer id=>
+      <iframe id="google" src="https://docs.google.com/forms/d/1bI914QClvVVYpUvjxyTyri9WP-hOXTo0X0atW6BRNTU/viewform?embedded=true" 
       width="640" height="600" 
       frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
     </footer>
