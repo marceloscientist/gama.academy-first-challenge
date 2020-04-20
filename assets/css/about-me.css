@@ -1,6 +1,7 @@
 #mini-cv {
   background-color: #051566;
-  padding: 1% 5% 1% 5%;
+ 
+
 }
 
 .mini-cv {
@@ -10,7 +11,8 @@
   border: 4em solid  white;
   border-radius: 1em;
   box-shadow: 0 0.7em 1.2em 0.5em rgba(0,0,0,0.2);
-  padding-bottom: 3em;
+  padding: 2% 3% 2% 3%;  
+
 }
 
 #mini-cv-label {
@@ -19,7 +21,7 @@
   justify-content: space-evenly;
 }
 #mini-cv-left {
-  padding-top: 50px;
+  padding-top: 3em;
   font-style: italic;
 }
 
@@ -58,26 +60,25 @@ ul {
 }
 
 #mini-cv-bottom {
-  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .mini-cv-frame {
+  text-align: center;
   border: 0.5px solid  white;
-  margin: 20px 5px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: flex;
+  width: 100%;
+  margin: 1em 0.3em;
+  padding: 0.7em 3em 0.7em 3em; 
   border-radius: 30px;
-  justify-content: flex-start;
   box-shadow: 0 0.7em 1.2em 0.5em rgba(0,0,0,0.2);
 }
 
+.mini-cv-svg {
+  width: 2em;
+} 
+
 .mini-cv-anchors {
-  padding-left: -30px;
-  font-style: italic;
-  font-size: 1.1em;
-  font-weight: 600;
-  margin-right: 20px;
   text-decoration: none;
 }
 
