@@ -4,6 +4,13 @@ main {
   background-color: #eef;
 }
 
+/*
+***
+     VIDEO CARDS STYLE
+ ***
+  */
+
+
 .section-card {
   padding-left: 3%;  
   padding-right: 3%;  
@@ -81,7 +88,7 @@ main {
 }
 audio  {
   margin-top: 1em; 
-  width: 60%;
+  width: 28em;
 }
 
 .youtube  {

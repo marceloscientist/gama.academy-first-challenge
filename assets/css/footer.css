@@ -1,4 +1,6 @@
 #google {
+  background-color: #1b2869;
+  background-image: url(../corona.svg);
   width: 100% !important;  
   overflow: hidden; /* Hide scrollbars */
 }

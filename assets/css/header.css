@@ -2,18 +2,55 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
+/*
+***
+     JUBATRON STYLE
+ ***
+  */
 #jubatron {
   background-color: #1b2869;
+  background-image: url(../corona.svg);
+  background-size: 10em 8em;  
   padding: 2em 0;
   letter-spacing: 0.6em;
   height: 8em;
 }
 
+@media only screen and (min-width: 680px) {
+  #jubatron {
+    padding-bottom: 8em;
+  }
+  #jubatron-title {
+    font-size: 2em !important; 
+  } 
+}
+
+
+@media only screen and (min-width: 918px) {
+  #jubatron {
+    padding-bottom: 1em;
+  }
+  #jubatron-title {
+    margin: 0em 0.2em;
+    font-size: 1.9em !important; 
+  } 
+}
+
 #jubatron-title {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  font-weight: bolder;
   color: white;
+  text-shadow: 0.1em 0.05em rgba(25, 90, 144, 0.8);
 }
+
+
+/*
+***
+     NAVBAR STYLE
+ ***
+  */
 
 nav {
   font-size: 1.2em;

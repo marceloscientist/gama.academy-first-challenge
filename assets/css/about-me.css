@@ -1,7 +1,13 @@
+/*
+***
+     MINI CV STYLE
+ ***
+  */
+
+
+
 #mini-cv {
   background-color: #051566;
- 
-
 }
 
 .mini-cv {
@@ -9,7 +15,6 @@
   color: #071a75;
   font-size: 1em;
   border: 4em solid  white;
-  border-radius: 1em;
   box-shadow: 0 0.7em 1.2em 0.5em rgba(0,0,0,0.2);
   padding: 2% 3% 2% 3%;  
 
@@ -20,7 +25,7 @@
   align-items:left;
   justify-content: space-evenly;
 }
-#mini-cv-left {
+#mini-cv-box {
   padding-top: 3em;
   font-style: italic;
 }
@@ -34,12 +39,6 @@
 #mini-cv-brief {
   color: #333;
   font-size: 1.1em;
-}
-
-#mini-cv-right {
-  background-color: #777;
-  border: 0.5px solid  white;
-  text-align: center;
 }
 
 #about-heading-title {
@@ -87,30 +86,4 @@ ul {
 .mini-cv-anchors:visited, 
 .mini-cv-anchors:active {
   color: #071a75;
-}
-
-.right-footer-card {
-  color: #071a75;
-  text-align: left;
-  font-size: 18px;
-  margin: 2px;
-  border: 0.5px solid  white;
-  padding: 50px 200px;
-  background-color: #eee;
-  box-shadow: 0 0.7em 1.2em 0.5em rgba(0,0,0,0.2);
-}
-
-#brief-desc {
-  border: 0.5px solid  white;
-  padding: 20px;
-  box-shadow: 0 0.7em 1.2em 0.5em rgba(0,0,0,0.2);
-}
-.brief-desc-frame {
-  background-color: #555;
-  border: 0.5px solid  white;
-  margin: 5px 5px;
-  padding: 5px;
-  display: flex;
-  justify-content: initial;
-  box-shadow: 0 0.7em 1.2em 0.5em rgba(0,0,0,0.2);
 }
