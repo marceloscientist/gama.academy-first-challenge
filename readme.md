@@ -1,6 +1,7 @@
 ## Olá, Gama.Academy! ##
 
 
+
 Chegou a hora de vocês usarem tudo que aprenderam de HTML, CSS e GIT para construir uma landing page com as 6 melhores notícias sobre o COVID-19 na sua opinião. Para isso, vocês devem encontrar pelo menos dois tipos de notícia entre texto, vídeo e áudio.
 # R:Utilizei a idéia dos 3 tipos de mídia diferente, porém com apenas 3 notícias relacionadas ao COVID19#
 # Cada notícia com suas outras formas de mídia. Se a pessoa não consegue ver vídeo ela pode ouvir, e se ela não pode ouvir, ela pode ver em texto# 
@@ -25,3 +26,4 @@ Além disso, criem um menu de navegação e as páginas respectivas de:
 Não é preciso ter domínio próprio e recomendamos o Netlify para hospedagem.
 # Adorei, nunca tinha ouvido falar. Vocês são ótimos. E ainda, é integrado com os meus pushes no Git. Fabulous!!! #
 
+## PS: I'm can't believe I forgot to see my tests on a mobile view to check. I just minimized my browser to the max thinking that would result the same. That way I know I should have changed some more
